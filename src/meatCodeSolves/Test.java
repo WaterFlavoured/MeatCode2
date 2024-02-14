@@ -9,11 +9,9 @@ import java.util.*;
 public class Test {
 
     public static void main(String[] args) {
-        int c = 393;
-        int d = c%100;
+        char a = '1';
+        char b = '2';
 
-        System.out.println(c/100 + " " + d/10 + " " + d%10);
-        System.out.println(1.0 - 0.1 - 0.1 - 0.1 - 0.1 - 0.1);
-
+        System.out.println(a+b);
     }
 }
